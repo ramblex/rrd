@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <rrd.h>
+#include <string.h>
 
 char *rrdError() {
 	char *err = NULL;
